@@ -3,13 +3,13 @@ using namespace std;
 
 int main() 
 {
-    int a, b, temp;
+    int a, b, variable;
     cout << "enter two nos which you want to swap"<<endl;
     cin >>a>>b;
 
-    temp= a;
+    variable= a;
     a= b;
-    b= temp;
+    b= variable;
 
     cout <<a<<" "<< b;
 
